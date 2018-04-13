@@ -48,12 +48,21 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
-  password: { type: String,
+  password: {
+    type: String,
     min:6,
     max: 12,
     required: true
   },
-  roles: [userRole]
+  roles: [userRole],
+  created_at: {
+    type: Date,
+    default: Date.now
+  },
+  update_at: {
+    type: Date,
+    default: Date.now
+  }
 })
 
 module.exports = restful.model('User', userSchema)

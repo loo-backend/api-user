@@ -6,5 +6,6 @@
   "email_invalid": "O e-mail informa está inválido",
   "password_weak_conditions": "Senha precisar ter: uma letra maiúscula, uma letra minúscula, um número, uma caractere especial(@#$ %) e tamanho entre 6- 20.",
   "password_not_match": "As senhas não conferem!",
-  "user_registered": "Usuário já cadastrado."
+  "user_registered": "Usuário já cadastrado.",
+  "failed_token": "Houve uma falha na autenticação do token."
 }
